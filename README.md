@@ -11,11 +11,19 @@ Use conda to create a Python virtual environment
 conda create -n open-mmlab python=3.7 -y
 conda activate open-mmlab
 ```
-Install pytorch
+
+Check cuda -version
 ```setup
+nvcc -V
+```
+
+Install the corresponding cuda version of pytorch
+```setup
+# https://pytorch.org/get-started/previous-versions/
 # CUDA 11.0
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
 ```
+
 Install mmcv
 ```setup
 pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/{cu_version}/{torch_version}/index.html
