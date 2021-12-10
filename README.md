@@ -11,6 +11,8 @@ docker (recommanded):
 ```setup
 # create the docker container, you can change the share memory size if you have more.
 nvidia-docker run --name yolov4 -it -v your_coco_path/:/coco/ -v your_code_path/:/yolo --shm-size=64g nvcr.io/nvidia/pytorch:20.11-py3
+# CUDA 11.0
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
 
 # apt install required packages
 apt update
