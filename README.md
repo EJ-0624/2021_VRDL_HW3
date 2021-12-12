@@ -26,9 +26,11 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11
 
 Install mmcv
 ```setup
+# method 1
 pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/{cu_version}/{torch_version}/index.html
 pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.1/index.html
 
+# method 2
 git clone https://github.com/open-mmlab/mmcv.git
 cd mmcv
 pip install .
