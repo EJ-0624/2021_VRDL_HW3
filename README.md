@@ -52,6 +52,11 @@ pip install -r requirements.txt
 
 ※ For running Mish models, please install https://github.com/thomasbrandon/mish-cuda
 
+## Train image
+
+![TCGA-18-5592-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146067641-01580982-3b79-40d3-9697-59241e91d683.png) ![image](https://user-images.githubusercontent.com/68366624/146067557-e2fd6973-99c3-4a6d-9220-c6877acb4317.png)
+
+
 ## Training
 
 ```setup
