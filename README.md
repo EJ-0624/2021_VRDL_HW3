@@ -87,6 +87,13 @@ You can download the file here:
 python test.py --img 640 --conf 0.0001 --batch 32 --device 0 --data hw2.yaml --cfg cfg/hw2.cfg --weights weights/best.pt --iou-thres 0.4  --task test --names data/hw2.names --save-json
 ```
 
+## Test result
+
+![TCGA-50-5931-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146080231-69c424c2-0247-44f2-8e6a-6dc984a96db9.jpg)
+
+![Predict](https://user-images.githubusercontent.com/68366624/146080144-93384a81-8725-4676-8385-b56078a81985.png)
+
+
 ## Google Drive link
 
 This contains all the files that need to be used.
