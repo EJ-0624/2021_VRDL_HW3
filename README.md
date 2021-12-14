@@ -58,6 +58,17 @@ pip install -r requirements.txt
 python train.py --device 0 --batch-size 8 --img 640 640 --data hw2.yaml --cfg cfg/hw2.cfg --weights 'hw2.weights' --name hw2 --epoch 60 
 ```
 
+## Train result
+
+```setup
+# Look at training curves in tensorboard:
+%load_ext tensorboard
+%tensorboard --logdir output
+```
+![mask_rcnn](https://user-images.githubusercontent.com/68366624/146042822-7743d756-33a1-415d-994e-f03a270954ce.png)
+![total_loss](https://user-images.githubusercontent.com/68366624/146042890-7221ff30-b50e-4a05-a153-18ea52fc3fbc.png)
+
+
 ## Weight for Training Model
 
 You can download the file here:
