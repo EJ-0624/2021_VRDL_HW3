@@ -89,9 +89,12 @@ python test.py --img 640 --conf 0.0001 --batch 32 --device 0 --data hw2.yaml --c
 
 ## Test result
 
-![TCGA-50-5931-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146080231-69c424c2-0247-44f2-8e6a-6dc984a96db9.jpg)
-
-![Predict](https://user-images.githubusercontent.com/68366624/146080144-93384a81-8725-4676-8385-b56078a81985.png)
+![TCGA-50-5931-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146080144-93384a81-8725-4676-8385-b56078a81985.png)
+![TCGA-A7-A13E-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146081321-2df41033-67a3-41c8-8b61-ee5428d8b62f.png)
+![TCGA-AY-A8YK-01A-01-TS1](https://user-images.githubusercontent.com/68366624/146081490-37f45b3e-7c71-441b-ab8c-6e853b7e050c.png)
+![TCGA-G2-A2EK-01A-02-TSB](https://user-images.githubusercontent.com/68366624/146081504-838a653f-e3a3-458e-83ae-258c336f712b.png)
+![TCGA-G9-6336-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146081527-49873b12-c1e6-404b-869f-39644e7a1929.png)
+![TCGA-G9-6348-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146081568-cf639621-7bfe-4bc1-853a-fc0f4044fde8.png)
 
 
 ## Google Drive link
