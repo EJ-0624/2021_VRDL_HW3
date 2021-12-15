@@ -59,7 +59,7 @@ python train.py
 
 You can download the file here:
 
-- [The file of weight](https://drive.google.com/file/d/1gjz7FFvbhG_0QbPQnWWrZmDXy_NqmVdD/view?usp=sharing)
+- [The file of weight](https://drive.google.com/file/d/1-0Z5-KVMfY_B-9U-PoXQQsq-_4yO5SPE/view?usp=sharing)
 
 ## Testing
 
@@ -79,4 +79,4 @@ python inference.py
 ## Google Drive link
 
 This contains all the files that need to be used.
-- [Google Drive](https://drive.google.com/drive/folders/1qCjpj7PW43pt3TibQhNta8HEryYeurDM?usp=sharing)
+- [Google Drive](https://drive.google.com/drive/folders/1tF9ebUI0Ck86uDttJZ0s8vLNrNe6G3TZ?usp=sharing)
