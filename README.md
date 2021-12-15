@@ -3,33 +3,16 @@
 ## Environment
 
 * COLAB
-* 
+* torch 1.10.0
+* cuda 11.1
 
 ## Requirements
-
-Use conda to create a Python virtual environment
-```setup
-conda create -n open-mmlab python=3.7 -y
-conda activate open-mmlab
-```
-
-Check cuda -version
-```setup
-nvcc -V
-```
-
-Install the corresponding cuda version of pytorch
-```setup
-# https://pytorch.org/get-started/previous-versions/
-# CUDA 11.0
-conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
-```
 
 Install mmcv
 ```setup
 # method 1
-pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/{cu_version}/{torch_version}/index.html
-pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.1/index.html
+# pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/{cu_version}/{torch_version}/index.html
+# pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.10/index.html
 
 # method 2
 git clone https://github.com/open-mmlab/mmcv.git
@@ -39,19 +22,16 @@ pip install .
 
 Install mmdetection
 ```setup
-git clone https://github.com/open-mmlab/mmdetection.git
-cd mmdetection
-pip install -r requirements/build.txt
-pip install -v -e .  # or "python setup.py develop"
+# See https://detectron2.readthedocs.io/tutorials/install.html for instructions
+# pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/$CUDA_VERSION/torch$TORCH_VERSION/index.html
+pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu111/torch1.10/index.html
 ```
 
-To install requirements:
+Install pyyaml:
 
 ```setup
-pip install -r requirements.txt
+pip install pyyaml==5.1
 ```
-
-※ For running Mish models, please install https://github.com/thomasbrandon/mish-cuda
 
 ## Train image
 
