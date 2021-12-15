@@ -38,6 +38,16 @@ pip install pyyaml==5.1
 ![image](https://user-images.githubusercontent.com/68366624/146068098-aec3c713-c038-411f-bbbd-5514ffa6e666.png)
 ![image](https://user-images.githubusercontent.com/68366624/146067557-e2fd6973-99c3-4a6d-9220-c6877acb4317.png)
 
+## Use Zen lite for image pre-processing
+
+According to the URL
+https://www.zeiss.com/microscopy/int/products/microscope-software/zen-lite.html.
+register and download zen lite.
+
+![image](https://user-images.githubusercontent.com/68366624/146250908-98e82830-6c64-4ac4-bd39-8d96d50a126f.png)
+![image](https://user-images.githubusercontent.com/68366624/146250883-77bf928c-60c6-4e51-b360-86fa9de11036.png)
+
+
 ## Get coco format
 
 use hw3.py to get coco format and create train.json.
