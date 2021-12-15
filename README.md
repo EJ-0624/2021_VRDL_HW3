@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ## Training
 
 ```setup
-python train.py --device 0 --batch-size 8 --img 640 640 --data hw2.yaml --cfg cfg/hw2.cfg --weights 'hw2.weights' --name hw2 --epoch 60 
+python train.py
 ```
 
 ## Train result
@@ -84,7 +84,7 @@ You can download the file here:
 ## Testing
 
 ```setup
-python test.py --img 640 --conf 0.0001 --batch 32 --device 0 --data hw2.yaml --cfg cfg/hw2.cfg --weights weights/best.pt --iou-thres 0.4  --task test --names data/hw2.names --save-json
+python inference.py
 ```
 
 ## Test result
