@@ -72,9 +72,8 @@ python train.py --device 0 --batch-size 8 --img 640 640 --data hw2.yaml --cfg cf
 %load_ext tensorboard
 %tensorboard --logdir output
 ```
-![mask_rcnn](https://user-images.githubusercontent.com/68366624/146042822-7743d756-33a1-415d-994e-f03a270954ce.png)
-![total_loss](https://user-images.githubusercontent.com/68366624/146042890-7221ff30-b50e-4a05-a153-18ea52fc3fbc.png)
-
+![mask_rcnn](https://user-images.githubusercontent.com/68366624/146246919-1c0b5b7f-8d99-4258-a5ac-72888ba41b6e.png)
+![total_loss](https://user-images.githubusercontent.com/68366624/146246975-267e6a5b-0d32-477f-9ede-2b1a22ff1c6c.png)
 
 ## Weight for Training Model
 
