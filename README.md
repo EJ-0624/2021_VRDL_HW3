@@ -90,13 +90,12 @@ python test.py --img 640 --conf 0.0001 --batch 32 --device 0 --data hw2.yaml --c
 
 ## Test result
 
-![TCGA-50-5931-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146080144-93384a81-8725-4676-8385-b56078a81985.png)
-![TCGA-A7-A13E-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146081321-2df41033-67a3-41c8-8b61-ee5428d8b62f.png)
-![TCGA-AY-A8YK-01A-01-TS1](https://user-images.githubusercontent.com/68366624/146081490-37f45b3e-7c71-441b-ab8c-6e853b7e050c.png)
-![TCGA-G2-A2EK-01A-02-TSB](https://user-images.githubusercontent.com/68366624/146081504-838a653f-e3a3-458e-83ae-258c336f712b.png)
-![TCGA-G9-6336-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146081527-49873b12-c1e6-404b-869f-39644e7a1929.png)
-![TCGA-G9-6348-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146081568-cf639621-7bfe-4bc1-853a-fc0f4044fde8.png)
-
+![TCGA-50-5931-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146246434-3ed48a7d-bcd9-4348-b279-62fb07833e54.png)
+![TCGA-A7-A13E-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146246470-266837aa-e19d-4e4b-afeb-b1dce6e723cf.png)
+![TCGA-AY-A8YK-01A-01-TS1](https://user-images.githubusercontent.com/68366624/146246499-4740df46-676d-48b2-97e6-be9c3b7ef334.png)
+![TCGA-G2-A2EK-01A-02-TSB](https://user-images.githubusercontent.com/68366624/146246551-cd75016e-322e-45c3-9e1d-00f11fc4fe29.png)
+![TCGA-G9-6336-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146246576-009de500-4a60-497c-b44c-91228ed50d9b.png)
+![TCGA-G9-6348-01Z-00-DX1](https://user-images.githubusercontent.com/68366624/146246596-fd6db5d7-b5bb-46e3-9e2c-d185f8b2c386.png)
 
 ## Google Drive link
 
