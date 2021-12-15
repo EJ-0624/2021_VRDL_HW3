@@ -44,6 +44,9 @@ According to the URL
 https://www.zeiss.com/microscopy/int/products/microscope-software/zen-lite.html.
 register and download zen lite.
 
+
+Adjust the contrast of the image to make the nucleus more visible.
+
 ![image](https://user-images.githubusercontent.com/68366624/146250908-98e82830-6c64-4ac4-bd39-8d96d50a126f.png)
 ![image](https://user-images.githubusercontent.com/68366624/146250883-77bf928c-60c6-4e51-b360-86fa9de11036.png)
 
