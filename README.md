@@ -2,7 +2,8 @@
 
 ## Environment
 
-* Ubuntu 16.04.5 LTS (GNU/Linux 4.15.0-39-generic x86_64)
+* COLAB
+* 
 
 ## Requirements
 
