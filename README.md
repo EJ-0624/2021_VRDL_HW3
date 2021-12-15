@@ -20,7 +20,7 @@ cd mmcv
 pip install .
 ```
 
-Install mmdetection
+Install detectron2
 ```setup
 # See https://detectron2.readthedocs.io/tutorials/install.html for instructions
 # pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/$CUDA_VERSION/torch$TORCH_VERSION/index.html
