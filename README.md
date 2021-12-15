@@ -38,6 +38,9 @@ pip install pyyaml==5.1
 ![image](https://user-images.githubusercontent.com/68366624/146068098-aec3c713-c038-411f-bbbd-5514ffa6e666.png)
 ![image](https://user-images.githubusercontent.com/68366624/146067557-e2fd6973-99c3-4a6d-9220-c6877acb4317.png)
 
+## Get coco format
+
+use hw3.py to get coco format and create train.json.
 
 ## Training
 
