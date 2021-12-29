@@ -96,3 +96,21 @@ python inference.py
 
 This contains all the files that need to be used.
 - [Google Drive](https://drive.google.com/drive/folders/1tF9ebUI0Ck86uDttJZ0s8vLNrNe6G3TZ?usp=sharing)
+
+## 防止colab斷線
+ctrl+shift+i
+
+在console最底下輸入
+
+```setup
+function ClickConnect(){
+  console.log("Working"); 
+  document
+    .querySelector("#top-toolbar > colab-connect-button")
+    .shadowRoot
+    .querySelector("#connect")
+    .click()
+}
+ 
+var id=setInterval(ClickConnect,5*60000) ##每五分鐘按一次鍵
+```
